@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde.com</title>
+    <link rel="stylesheet" href="lib/bootstrap-css-min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Saúde.com</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav id="menu" class="collapse navbar-collapse justify-content-end">
+                    <ul class=" nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#sobrenos">Sobre Nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#musculacao">Musculação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cardio">Exercícios Aeróbicos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#calculadora">Calculo de IMC</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nutricao">Nutrição</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="carrossel container">
+        <div id="carousel-one" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="./img.saude.com/carrossel1.png" alt="carousel1">
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="./img.saude.com/carrossel2.png" alt="carousel1">
+                </div>
+            </div>
+            <button class="carousel-control-prev" data-bs-target="#carousel-one" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#carousel-one" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="#carousel-one" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-one" data-bs-slide-to="1"></button>
+            </div>
+        </div>
+    </div>
+
+    <section class="container">
+        <div class="sobre" id="sobrenos">
+            <img src="./img.saude.com/sobrenos.png" alt="modelo">
+                <div class="conteudosobre">
+                    <h1>Sobre nós</h1>
+                    <hr>
+                    <p>Bem-vindo à Saude.com, sua parceira dedicada ao bem-estar e qualidade de vida. Nascemos com a missão de inspirar e transformar vidas, ajudando indivíduos a alcançar uma saúde plena e equilibrada. Combinando expertise em atividades físicas e nutrição, oferecemos soluções personalizadas e orientações especializadas para que você alcance seus objetivos de forma sustentável.</p>
+                    <p>Nossa paixão é criar um impacto positivo na sua jornada de saúde, proporcionando ferramentas, recursos e apoio necessário para que você viva com vitalidade e harmonia. Junte-se a nós nesta aventura de bem-estar e descubra o melhor da sua saúde!</p>
+                </div>
+            </div>
+    </section>
+
+    <section class="container">
+        <div class="musculaçao" id="musculacao">
+            <h1>Musculação</h2>
+            <hr>
+            <img src="./img.saude.com/musculação.png" alt="modelo2">
+            <div class="conteudomusc">
+                <p>A musculação fortalece o corpo, aumenta a resistência, melhora a postura e a flexibilidade, promovendo não apenas um físico mais tonificado, mas também uma saúde óssea robusta e um metabolismo mais eficiente.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="cardio" id="cardio">
+            <h1>Exercícios Aeróbicos</h1>
+            <hr>
+            <div class="conteudocardio">
+                <article>
+                    <img src="./img.saude.com/caminhada.png" alt="caminhada">
+                    <h3>Caminhada</h3>
+                    <p>A caminhada fortalece o sistema cardiovascular, melhora a circulação, ajuda na perda de peso e eleva o humor, sendo uma atividade acessível para melhorar a saúde geral.</p>
+                </article>
+                <article>
+                    <img src="./img.saude.com/bike.png" alt="caminhada">
+                    <h3>Pedalar</h3>
+                    <p>Pedalar promove resistência muscular, aumenta a capacidade cardiovascular, fortalece as articulações, além de ser uma excelente opção para melhorar o condicionamento físico e reduzir o estresse.</p>
+                </article>
+                <article class="three">
+                    <img src="./img.saude.com/natacao.png" alt="caminhada">
+                    <h3>Natação</h3>
+                    <p>A natação tonifica os músculos, melhora a saúde respiratória, aumenta a flexibilidade, promove a coordenação motora e proporciona um treino cardiovascular completo, sendo ideal para todas as idades.</p>
+                </article>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="calculadora" id="calculadora">
+        <section class="form container">
+            <div class="row">
+                <div class="col"></div>
+                    <h1>Calcule seu IMC</h2>
+                    <hr>
+                    <p>O Índice de Massa Corporal (IMC) é uma medida utilizada para avaliar se uma pessoa está dentro do peso ideal em relação à sua altura.</p>
+                    <p>É importante mencionar que o IMC é uma ferramenta de avaliação simplificada e não considera outros fatores como composição corporal, distribuição de gordura e massa muscular. Portanto, embora seja um indicador útil para a maioria das pessoas, pode não ser preciso para atletas ou indivíduos com uma proporção significativa de massa muscular.</p>
+                    <p>Agora que você sabe o significado do IMC, faça agora mesmo e descubra seu índica de massa corporal atual:</p>
+                    <form>
+
+                        <label class="form-label" for="nome">Seu nome:</label>
+                        <input class="form-control" type="text" id="nome">
+
+                        <label class="form-label" for="peso">Seu peso:</label>
+                        <input class="form-control" type="number" id="peso">
+
+                        <label class="form-label" for="altura">Sua altura:</label>
+                        <input class="form-control" type="number" id="altura">
+
+                        <div class="form-check form-switch">
+                            <label class="form-check-label" for="aceito-termos">Aceito todos os termos</label>
+                            <input class="form-check-input" type="checkbox" id="aceito-termos">
+                        </div>
+
+                        <button class="btn btn-success">Calcular</button>
+                    </form>
+
+                <div id="resultado"></div>
+
+            </div>
+        </section>
+    </div>
+
+    <section class="nutricao" id="nutricao">
+        <div class="container">
+            <h1>Nutrição</h1>
+            <hr>
+            <p>A nutrição desempenha um papel fundamental na promoção e manutenção da saúde e bem-estar do ser humano. Não se trata apenas de contar calorias ou seguir modismos dietéticos, mas sim de adotar uma abordagem holística que reconhece a complexidade e a individualidade de cada organismo.</p>
+            <p>Por isso separamos algumas dicas para você começar a melhorar sua alimentação em três passos simples:</p>
+                <div class="row">
+                    <div class="col-4">
+                        <article class="card">
+                            <header class="card-header">
+                                <strong>PRIMEIRO PASSO</strong>
+                            </header>
+                            <img src="./img.saude.com/nutricao1.png" alt="modelotest">
+                            <div class="card-body">
+                                <h4 class="card-title"> Consuma mais frutas</h4>
+                                <p>Comer frutas fornece ao corpo uma variedade de vitaminas, minerais e antioxidantes essenciais, ajudando a fortalecer o sistema imunológico, além de promover a hidratação devido ao seu alto teor de água.</p>
+                        </article>
+                    </div>
+                    <div class="col-4">
+                        <article class="card">
+                            <header class="card-header">
+                                <strong>SEGUNDO PASSO</strong>
+                            </header>
+                            <img src="./img.saude.com/nutricao2.png" alt="modelotest">
+                            <div class="card-body">
+                                <h4 class="card-title">Priorize Legumes e Vegetais</h4>
+                                <p>Incluir legumes na dieta contribui para a saúde digestiva, graças ao seu conteúdo rico em fibras, auxiliando na regularidade intestinal e na manutenção de um peso saudável.</p>
+                        </article>
+                    </div>
+                    <div class="col-4">
+                        <article class="card">
+                            <header class="card-header">
+                                <strong>TERCEIRO PASSO</strong>
+                            </header>
+                            <img src="./img.saude.com/nutricao3.png" alt="modelotest">
+                            <div class="card-body">
+                                <h4 class="card-title"> Evite alimentos muito calóricos</h4>
+                                <p>Limitar o consumo de alimentos ricos em calorias ajuda a controlar o peso corporal, reduzindo o risco de obesidade e suas complicações associadas.</p>
+                        </article>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <div class="rodape">
+        <footer>
+            &copy Nosso objetivo é manter você saudável.
+        </footer>
+    </div>
+
+    <script src="lib/bootstrap-js-bundle-min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
