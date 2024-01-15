@@ -1,3 +1,10 @@
+var form = document.getElementById('formImc');
+
+form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    calcularIMC();
+})
+
 function calcularIMC() {
     var nome = document.getElementById('nome').value;
     var peso = parseFloat(document.getElementById('peso').value);
@@ -8,6 +15,8 @@ function calcularIMC() {
         alert('Por favor, preencha todos os campos e aceite os termos.');
         return;
     }
+
+    altura = altura / 100;
 
     var imc = peso / (altura * altura);
 
